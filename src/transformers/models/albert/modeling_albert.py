@@ -270,7 +270,7 @@ class CellEmbeddings(AlbertEmbeddings):
     """
 
     def __init__(self, config):
-        super().__init__()
+        super().__init__(config)
         self.position_embedding_type = None
  
 
